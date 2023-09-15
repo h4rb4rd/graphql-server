@@ -1,0 +1,25 @@
+{
+	"name": "graphql-server",
+	"version": "1.0.0",
+	"description": "GraphQL Server (with Apollo)",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/h4rb4rd/graphql-server.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/h4rb4rd/graphql-server/issues"
+	},
+	"homepage": "https://github.com/h4rb4rd/graphql-server#readme",
+	"type": "module",
+	"dependencies": {
+		"@apollo/server": "^4.9.3",
+		"graphql": "^16.8.0"
+	}
+}
